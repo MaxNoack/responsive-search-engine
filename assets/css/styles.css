@@ -1,0 +1,9 @@
+#loader {
+	height: 50px !important;
+	margin: 10px !important;
+}
+.jumbotron {
+	background-color: #3f8aad;
+	color: white;
+	margin-bottom: 10px;
+}

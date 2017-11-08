@@ -1,0 +1,50 @@
+<!DOCTYPE xhtml>
+<html>
+
+<head>
+	<title>Prisjakt Search Assignment</title>
+	<link rel="icon" href="./images/pj_logo.png">
+	<meta charset="utf-8"  />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	<script src="assets/js/jquery-3.2.1.min.js"></script>
+	<script src="assets/js/bootstrap.js"></script>
+	<script src="assets/js/main.js"></script>
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="jumbotron">
+			<h2>Responsive Search Engine</h2>
+			<h5>For smart product searching</h5>
+		</div>
+		<div class="col-md-12"><i class="text-muted pull-right">Created by Max Noack</i></div>
+		<div class="col-md-6 col-md-offset-3">
+			</br>
+			<div class="form-group">
+				<input type="text" id="search_phrase" name="search_phrase" class="form-control" placeholder="Search product" maxlength="255" autocomplete="off">
+				<small class="form-text text-muted">Please add a product name in the field above</small>
+			</div>
+			<div id="loader"></div>
+
+			<div class="alert alert-warning" id="error-warning" role="alert" style="display: none;"></div>
+		</div>
+		<div class="col-md-12">
+			<div class="table-responsive table-hover">
+				<table id="result_table" class="table table-hover table-striped" style="display: none;">
+					<thead>
+						<tr>
+							<th>ID</th>
+							<th>Name</th>
+							<th>Category</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
