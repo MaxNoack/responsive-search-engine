@@ -8,3 +8,6 @@ A responsive search engine for product searching
 - Supports one or more exact matches within double quotes (<i>"</i>). Eg. samsung <i>"galaxy s"</i> will match <i>Samsung GT-i9100 Galaxy S II</i>, but not <i>Samsung GT-N7100 Galaxy Note II 16GB</i>
 - Supports one or more negative searches with minus (<i>-</i>). Eg. <i>iphone -5</i> will match all iPhones, except iPhone 5's
 - Searches will only match IDs if the match is exactly the same
+<br>
+
+![alt text](https://i.imgur.com/zJiDpO9.png)
