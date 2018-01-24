@@ -39,7 +39,7 @@ $(document).ready(function(){
 					}
 				},
 				beforeSend: function() {
-					$("#loader").html('<div class="tab-content text-center"><img src="./images/loading_logo.gif"></div>');
+					$("#loader").html('<div class="tab-content text-center"><img src="./images/search_spinner.gif"></div>');
 				},
 				error: function() {
 					$("#error-warning").show();
